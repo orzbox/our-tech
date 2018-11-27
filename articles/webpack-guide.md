@@ -2,4 +2,6 @@
 
 ### 什么式webpack
 
+webpack是一个模块化打包工具。
+
 ### 如何使用Webpack来打包
