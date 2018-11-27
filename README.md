@@ -1,2 +1,2 @@
-# our-tech
-:tiger: The technology  we want to share in public repository.
+# 技术杂货店
+:tiger: 分享我们的技术！
