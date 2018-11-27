@@ -9,7 +9,7 @@
 
 ### 游戏
 ### 大前端
-* [webpack打包工具简单使用](./articles/webpack-guide.md)
+* [webpack入门](./articles/webpack-guide.md)
 ### 算法
 ### 工程
 ### 工具
