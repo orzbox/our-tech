@@ -2,4 +2,6 @@
 
 ### 什么式webpack
 
+![](../pics/hand.png)
+
 ### 如何使用Webpack来打包
