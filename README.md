@@ -8,7 +8,7 @@
          <img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square">
     </a>
      <a href="https://orzbox.github.io/our-tech/">
-         <img src="https://img.shields.io/badge/Blog-@our_tech-brightgreen.svg?style=flat-square">
+         <img src="https://img.shields.io/badge/Blog-@our_tech-green.svg?style=flat-square">
     </a>
 </div>
 
