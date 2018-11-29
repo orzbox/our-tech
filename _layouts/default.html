@@ -13,10 +13,6 @@
 
     <header>
       <div class="container">
-        <div style="position:absolute;left:20px;top:10px;">
-          <a class="btn" href="/our-tech/" style="display:inline-block;margin-left:5px;">
-            <img width="45px" src="/our-tech/favicon.png"/><p style="text-align:center">Home</p></a>
-        </div>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
@@ -26,6 +22,7 @@
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+          <a href="/our-tech" class="btn"><span class="icon"></span>Home</a>
         </section>
       </div>
     </header>
