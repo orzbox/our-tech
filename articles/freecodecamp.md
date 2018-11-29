@@ -1,7 +1,7 @@
-## 1800h 前端训练营
+## 1800h WEB全栈训练营
 > 作者：ScarboroughCoral
 
-一个让你快速精通大前端的训练营，关卡形式！
+一个让你快速精通web全栈的训练营，关卡形式！
 
 ![freecodecamp](../pics/freecodecamp.png)
 
