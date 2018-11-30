@@ -1,5 +1,5 @@
 # 技术杂货仓库
-:tiger: 分享我们的技术！
+:tiger: 分享开发技术！
 
 <div align="center"> 
     <img src="./favicon.png" width="150px"/>
