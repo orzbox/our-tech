@@ -11,3 +11,4 @@
 * [QEMU 使用文档](https://qemu.weilnetz.de/doc/qemu-doc.html)
 * [Intel 汇编指令集](http://www.skywind.me/maker/intel.htm)
 * [Linux 汇编开发指南（IBM）](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
+* [Intel 80386 程序员参考手册](https://wizardforcel.gitbooks.io/intel-80386-ref-manual/content/1.html)
