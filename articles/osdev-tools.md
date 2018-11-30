@@ -8,4 +8,6 @@
 
 * [Docker Hub](https://hub.docker.com/r/scarboroughcoral/osdev-ubuntu/)
 * [开发参考教程](https://github.com/cfenollosa/os-tutorial)
+* [QEMU 使用文档](https://qemu.weilnetz.de/doc/qemu-doc.html)
+* [Intel 汇编指令集](http://www.skywind.me/maker/intel.htm)
 * [Linux 汇编开发指南（IBM）](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
