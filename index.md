@@ -9,9 +9,15 @@
 * [操作系统开发工具 Docker 镜像](./articles/osdev-tools.md)
 
 ### 游戏
+
 ### 大前端
+
 ### 算法
+
 ### 工程
+
+* [Github 使用心得——那些年踩过的坑](./articles/github-thinking.md)
+
 ### 工具
 
 * [版本控制工具——Git 使用教程](./articles/git-guide.md)
