@@ -1,4 +1,5 @@
 ## 操作系统开发工具 Docker 镜像
+> 作者：[ScarboroughCoral](https://github.com/ScarboroughCoral)
 
 你可以从零开始搭建一个操作系统，该镜像中使用 `ubuntu` 作为底层操作系统、`nasm` 作为汇编程序，`gcc` 作为编译器，`qemu` 作为模拟器。
 
