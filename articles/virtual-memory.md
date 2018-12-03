@@ -1,6 +1,6 @@
 ## 虚拟内存 
 
-> 作者： ScarboroughCoral
+> 作者：[ScarboroughCoral](https://github.com/ScarboroughCoral)
 
 如果你了解过一点虚拟内存的知识，这篇笔记可能会让你更深入的理解。
 
