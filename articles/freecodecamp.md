@@ -1,5 +1,5 @@
 ## 1800h WEB全栈训练营
-> 作者：ScarboroughCoral
+> 作者：[ScarboroughCoral](https://github.com/ScarboroughCoral)
 
 一个让你快速精通web全栈的训练营，关卡形式！
 
