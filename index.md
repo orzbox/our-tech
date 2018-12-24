@@ -3,6 +3,10 @@
 
 ## 目录
 
+### 计算机基础
+
+* [经典学习资料！大佬们都说很经典！](./articles/study-resource.md) 
+
 ### 操作系统
 
 * [虚拟内存](./articles/virtual-memory.md)
