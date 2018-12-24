@@ -20,6 +20,7 @@
 ## 相关页面
 
 * [博客地址](https://orzbox.github.io/our-tech/)
+* [Markdown 阅读](index.md)
 * [团队首页](https://orzbox.github.io)
 
 
