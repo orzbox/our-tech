@@ -12,6 +12,8 @@
 * [虚拟内存](./articles/virtual-memory.md)
 * [操作系统开发工具 Docker 镜像](./articles/osdev-tools.md)
 
+### 图形学
+* [图片的低多边形渲染](./articles/low_poly_render.md)
 ### 游戏
 
 ### 大前端
