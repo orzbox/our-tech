@@ -49,7 +49,7 @@ return
          57.0 / 500.0 * (double) this.b);
 ```
 灰度图就是一个对一个图片的RGB值进行一个按比例的取值，之后就可以计算出一个图片的灰度值了
-<img src="./md_img/_gray.png" width=250 height=333>
+<img src="../pics/_gray.png" width=250 height=333>
 
 得到灰度图之后就可以对其进行Sobel的算子的运算了
 ```
