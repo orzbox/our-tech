@@ -1,6 +1,7 @@
 # 对图片进行低多边形渲染
 
 > 作者: [DearSummer](https://github.com/DearSummer)
+> 项目地址：[Delaunay](https://github.com/DearSummer/Delaunay)
 
 ## 前言
 
