@@ -18,7 +18,7 @@
 
 ### 网络安全
 
-* [XSS跨站脚本攻击探讨总结](XSS-Explain-1.md)
+* [XSS跨站脚本攻击探讨总结](./articles/XSS-Explain-1.md)
 
 ### 游戏
 
