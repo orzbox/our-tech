@@ -4,7 +4,7 @@
 
 小伙伴们毕设web页面可以快速构建了哟，通过拖拉组件的方式实现页面，你的工作仅仅是做一点点配置和调用后端服务接口。
 
-![alibaba-ice](../pics/alibaba-ice.png)
+![alibaba-ice](pics/alibaba-ice.png)
 
 - [飞冰官网](https://alibaba.github.io/ice/)
 - [使用文档](https://alibaba.github.io/ice/docs/about)

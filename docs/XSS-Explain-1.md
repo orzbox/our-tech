@@ -1,8 +1,8 @@
-  
+
 # XSS跨站脚本攻击探讨总结
 
 author:[C0d3r1iu](https://github.com/C0der1iu)  
- 
+
 date: 2018-01-25 13:29:22
 
 
@@ -24,7 +24,7 @@ date: 2018-01-25 13:29:22
 
  ```
 <input name="xxx" value=" from_user_input "/>
-```
+ ```
 当 用户输入" onfocus="alert(1) 时变成了这样：  
 
 ```
@@ -34,7 +34,7 @@ value后面的值被双引号闭合，后面又构造出了一个on事件，从�
 
 总的来说XSS基本流程是： 攻击者输入->网页输出-> 受害者打开网页浏览中招
 
-![](../pics/xss.png)
+![](pics/xss.png)
 
 
 ### 二.XSS类型分类：  
@@ -80,7 +80,7 @@ XSS可以大致分为两或三类:
 
 在火狐浏览器下查看的效果(浏览器解析时会自动加上引号):
 
-![](../pics/svg.png)
+![](pics/svg.png)
 
 ##### a标签伪协议执行
 
@@ -94,7 +94,7 @@ XSS可以大致分为两或三类:
 <a href="data:text/html;base64,这里跟着base64之后的js代码">click here</a>
 ```
 
- 
+
 外域获取cookie,据我所知只有火狐才可以了，这里涉及同源策略相关知识。
 
 
@@ -194,17 +194,17 @@ default-src 指定了下列所有的资源加载有效来源。
     允许使用内联资源，如内联的<script>元素、javascript: URL、内联的事件处理函数和内联的<style>元素,不怎么安全（除非有设置nonce）
     'unsafe-eval'
     允许使用 eval() 等通过字符串创建代码的方法。
-    ![](../pics/eval.png)
+    ![](pics/eval.png)
     'nonce-abc'
     标签内需要设定和上面相符的nonce值才会执行，google团队提出了一个新的思想，那就是随机化nonce,利用几行后端代码就可以指定nonce之后的值为随机生成的值，使得攻击难度剧增。
     不过freebuf上有一篇翻译文章指出，这种情况在服务端开启了缓存的情况下还是可以被攻破：
     [附上链接](http://www.freebuf.com/articles/web/133455.html)
 
 如果后面空格跟上数据：
-    data:
-        允许data: URI作为内容来源。
-    mediastream:
-        允许mediastream: URI作为内容来源。
+​    data:
+​        允许data: URI作为内容来源。
+​    mediastream:
+​        允许mediastream: URI作为内容来源。
 
 PS:如果要采用多种关键字，直接空格连接就OK
 
@@ -225,15 +225,15 @@ PS:如果要采用多种关键字，直接空格连接就OK
 
 我们设置如下内容安全策略来限制script加载的地址和iframe加载的地址：
 
-![](../pics/csp.png)
+![](pics/csp.png)
 
 当我们试图在iframe将地址设置成 www.baidu.com 的时候，可以看到不会加载成功
 
-![](../pics/csp3.png)
+![](pics/csp3.png)
 
 如果我们换成符合设定CSP规则的，则可以加载成功
 
-![](../pics/csp2.png)
+![](pics/csp2.png)
 
 此乃内容安全策略，它限制了在当前网页Dom加载资源的来源
 
