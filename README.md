@@ -23,8 +23,8 @@
 
 ## 快速开始阅读
 
-* [博客地址](https://orzbox.github.io/our-tech/)
-* [Markdown 阅读](index.md)
+* [博客地址](https://orzbox.github.io/our-tech/)（`推荐指数：4.9`）
+* [Markdown 阅读](docs/README.md)（`推荐指数：2.1`）
 
 
 
