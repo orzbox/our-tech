@@ -1,7 +1,8 @@
----
+  
 # XSS跨站脚本攻击探讨总结
 
-author:C0d3r1iu
+author:[C0d3r1iu](https://github.com/C0der1iu)  
+ 
 date: 2018-01-25 13:29:22
 
 
@@ -11,19 +12,21 @@ date: 2018-01-25 13:29:22
 
 ```
     整体篇幅比较长，也算是我自己学习道路上的总结。
-    大家捡有用的看吧~
+     大家捡有用的看吧~
 ```
 
 ### 一.攻击原理：
+
 
 设计网页时没有对用户输入内容进行有效的过滤，导致用户恶意输入的符号对现有html代码造成闭合，从而加载外部js代码对浏览者进行恶意攻击（获取cookie伪造登录，浏览器截屏，url跳转等等）
 
 比如网页有一功能：某标签内的value引用一个用户输入的值，然而用户使用 " 闭合value后面的赋值，接着后面输入onload="alert(1) 又与value原本的第二个" 相结合，构造出一段额外的弹窗代码
 
-```
+ ```
 <input name="xxx" value=" from_user_input "/>
 ```
-当 用户输入" onfocus="alert(1) 时变成了这样：
+当 用户输入" onfocus="alert(1) 时变成了这样：  
+
 ```
 <input name="xxx" value="" onfocus="alert(1) "/>
 ```
@@ -33,7 +36,8 @@ value后面的值被双引号闭合，后面又构造出了一个on事件，从�
 
 ![](../pics/xss.png)
 
-### 二.XSS类型分类：
+
+### 二.XSS类型分类：  
 
 XSS可以大致分为两或三类:
 
@@ -48,6 +52,7 @@ XSS可以大致分为两或三类:
 值得一提的是：目前浏览器有自带filter过滤，除火狐浏览器，其他浏览器针对一般的XSS攻击payload已经有了自己的防范机制(放弃加载并警告用户)，为了bypass这一机制，需要进行特殊的编码构造，这又是一门学问。
 
 #### 第二类：
+
 如果攻击payload可以入库，并且长期反应在某一页面中，受害者只要浏览了特定页面就会中招，则称此类型为储存型XSS。
 这类XSS危害大，挖掘成本较高(需要目标站的提交数据权限)
 大致流程:
@@ -60,11 +65,12 @@ XSS可以大致分为两或三类:
 ### 三.一些经典测试payload：
 
 ##### 笔者最喜欢用的payload是：
+
 ```
 "><svg/onload=alert(1)//
 ```
 当时拿着这段payload这插插那插插，一天就过去了，玩的不亦乐乎
-现在想想，这段短小的payload伴随了我测试XSS漏洞的整个时光呢~
+现在想想，这段短小的payload伴随了我测试XSS漏洞的整个时光~
 
 ##### 具体引用外部js的代码姿势是:
 
@@ -82,13 +88,13 @@ XSS可以大致分为两或三类:
 <a href="javascript:alert(1)" >click me</a>
 ```
 
-##### data引用外域资源
+ ##### data引用外域资源
 
 ```
 <a href="data:text/html;base64,这里跟着base64之后的js代码">click here</a>
 ```
 
-
+ 
 外域获取cookie,据我所知只有火狐才可以了，这里涉及同源策略相关知识。
 
 
@@ -99,7 +105,7 @@ XSS可以大致分为两或三类:
 如果平时代码审计呢？
 
 在PHP下我还真审计出来不少,基本操作还是那些，说一个记忆比较深刻的吧
-
+`
 ```
 $_SERVER['PHP_SELF']
 ```
@@ -110,8 +116,8 @@ $_SERVER['PHP_SELF']
 
 `
 http://url.cn/index/"><img src=x onerror="alert(1)">/xxx/
+``
 `
-
 来作为传入参数，这样显示的url也就包括了这一段payload
 有趣的是，我在写上面代码的时候，我的markdown编辑器预览界面弹窗了233
 
@@ -128,16 +134,16 @@ http://url.cn/index/"><img src=x onerror="alert(1)">/xxx/
 EX: http://a.url.cn/c0d3r1iu.html
 ```
 
----
 
+```
 http://a.url.cn:80/marvel/c0d3r1iu.html 同源
 http://a.url.cn:80/c0d3r1iu.html 同源
 http://b.a.url.cn/c0d3r1iu.html 同源 (二级域相同的三级域名)
 https://a.url.cn/c0d3r1iu.html 不同源
 http://a.url.cn:88/c0d3r1iu.html 不同源
 https://b.url.cn/c0d3r1iu.html 不同源
+```
 
----
 通过这些例子，大概能了解什么是同源了吧
 同源策略只允许来自于同源的页面共享一些数据，比如cookie
 如果没有同源策略，那浏览器就太不安全了，我们会面临访问任意网站都能跨域访问将你的社交网站的cookie共享，这将使得攻击者拿到你的网站管理权限如同探囊取物。
