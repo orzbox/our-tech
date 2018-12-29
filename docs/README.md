@@ -4,7 +4,7 @@
 
 ## 技术资料
 
-- [Github 仓库前 50 名作者 CyC2018推荐资料（偏后端）](https://github.com/CyC2018/CS-Notes/blob/master/LEARNING.md)
+- [全球前 50 名 Github 仓库的作者——CyC2018 博客及推荐资料（偏后端）](articles/cyc2018-resource.md)
 
 ## 操作系统
 
