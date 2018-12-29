@@ -16,10 +16,10 @@ Flutter 是一个由谷歌开发的开源移动应用软件开发工具包，用
 
 - 有可视化调试、检测工具，如下图：
 
-![](pics/flutter-shot.png)
+![](../pics/flutter-shot.png)
 
 - 还有其他一些优点，我就是简单的跑了一个 demo，如果你想入手的话可以仔细了解一下。
 
 ## demo 截图
 
-![](pics/flutter.gif)
+![](../pics/flutter.gif)
