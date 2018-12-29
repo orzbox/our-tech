@@ -25,6 +25,10 @@
 
 
 
-## 贡献方法
+## 加入我们
+
+请首先加入 orzbox 的 QQ 群，群号是：783835145，加群时请说明“仓库完整名称”：`orzbox/our-tech`。
+
+## 如何开始
 
 写作贡献方法请[前方500米左转直走](https://github.com/orzbox/our-tech/wiki/%E8%B4%A1%E7%8C%AE%E6%96%B9%E6%B3%95)
