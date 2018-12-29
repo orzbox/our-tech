@@ -19,11 +19,12 @@
 
 这是一个技术大杂烩的仓库，不过我们给出了一些技术的分类，你可以根据你所感兴趣的技术进行阅读，当然你如果有兴趣也可以加入我们的队伍！将你的优秀文章分享！
 
-## 相关页面
+* [团队首页](https://orzbox.github.io)
+
+## 快速开始阅读
 
 * [博客地址](https://orzbox.github.io/our-tech/)
 * [Markdown 阅读](index.md)
-* [团队首页](https://orzbox.github.io)
 
 
 
