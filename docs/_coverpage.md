@@ -8,7 +8,7 @@
 
 - 完全免费的杂货店
 - 开源项目分享
-- 资源分享
+- 实用技术分享
+- 工具分享
 
-[GitHub](https://github.com/orzbox/our-tech/)
 [Get Started](README.md)
