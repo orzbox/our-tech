@@ -7,6 +7,10 @@
 
 * [经典学习资料！大佬们都说很经典！](./articles/study-resource.md) 
 
+### 技术资料
+
+* [Github 仓库前 50 名作者 CyC2018推荐资料（偏后端）](https://github.com/CyC2018/CS-Notes/blob/master/LEARNING.md)
+
 ### 操作系统
 
 * [虚拟内存](./articles/virtual-memory.md)
