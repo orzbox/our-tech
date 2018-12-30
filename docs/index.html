@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="/our-tech/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<!--   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
+<!--   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> -->
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app">Please wait...</div>
@@ -35,33 +35,33 @@
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- <script src="//unpkg.com/docsify-copy-code"></script> -->
   <!-- <script src="https://unpkg.com/docsify-copy-code@2"></script> -->
-  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<!--   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
+<!--   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script>
-    const gitment = new Gitment({
-//       id: 'Your page ID', // optional
-      owner: 'ScarboroughCoral',
-      repo: 'Gitalk-Issue',
-      oauth: {
-        client_id: 'e62f5ee8199f670b2b2d',
-        client_secret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
-      },
-      // ...
-      // For more available options, check out the documentation below
-    })
-
-    document.body.appendChild(gitment.render())
-//     const gitalk = new Gitalk({
-//       clientID: 'e62f5ee8199f670b2b2d',
-//       clientSecret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
+//     const gitment = new Gitment({
+// //       id: 'Your page ID', // optional
+//       owner: 'ScarboroughCoral',
 //       repo: 'Gitalk-Issue',
-//       owner: 'orzbox',
-//       admin: ['ScarboroughCoral','orzbox'],
-//       // facebook-like distraction free mode
-//       distractionFreeMode: false
+//       oauth: {
+//         client_id: 'e62f5ee8199f670b2b2d',
+//         client_secret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
+//       },
+//       // ...
+//       // For more available options, check out the documentation below
 //     })
+
+//     document.body.appendChild(gitment.render())
+    const gitalk = new Gitalk({
+      clientID: 'e62f5ee8199f670b2b2d',
+      clientSecret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
+      repo: 'Gitalk-Issue',
+      owner: 'orzbox',
+      admin: ['ScarboroughCoral','orzbox'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
   </script>
 </body>
 </html>
