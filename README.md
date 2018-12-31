@@ -41,6 +41,18 @@
 * **2018/11/12** ORZBOX 创建
 * **2018/11/12 - 2018/12/29** 相继 13 位核心成员加入
 
+## Acknowledgements
+
+感谢以下成员对仓库的贡献！
+
+
+<a href="https://github.com/C0der1iu">
+​    <img src="https://avatars2.githubusercontent.com/u/23181922?s=460&v=4" width="50px">
+</a> 
+<a href="https://github.com/DearSummer">
+​    <img src="https://avatars2.githubusercontent.com/u/26338665?s=460&v=4" width="50px">
+</a> 
+
 ## License
 
 - 本作品代码部分采用[MIT](LICENSE)协议进行许可
