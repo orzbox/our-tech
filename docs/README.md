@@ -53,6 +53,10 @@
 
 - [Github 使用心得——那些年踩过的坑](articles/github-thinking.md)
 
+## 👓 运维
+
+-[持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+
 ## 🔨 工具
 
 - [版本控制工具——Git 使用教程](articles/git-guide.md)
