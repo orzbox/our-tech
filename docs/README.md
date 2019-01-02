@@ -9,6 +9,8 @@
 
 ## 👽 AI
 
+- [机器学习实战项目](https://github.com/apachecn/ailearning-site)
+
 ## 🔅 操作系统
 
 - [虚拟内存](articles/virtual-memory.md)
