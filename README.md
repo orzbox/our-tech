@@ -30,7 +30,8 @@
 
 ## 加入我们
 
-请首先加入 orzbox 的 QQ 群，群号是：783835145，加群时请说明“仓库完整名称”：`orzbox/our-tech`。
+- 请首先加入 orzbox 的 QQ 群，群号是：783835145，加群时请说明“仓库完整名称”：`orzbox/our-tech`。
+- 如果想加入 `GitHub Organization` 请联系群主 QQ：3249977074
 
 ## 参与贡献
 
