@@ -7,6 +7,8 @@
 - [全球前 50 名 Github 仓库的作者——CyC2018 博客及推荐资料（偏后端）](articles/cyc2018-resource.md)
 - [每个程序员应该知道的网站](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 
+## 👽 AI
+
 ## 🔅 操作系统
 
 - [虚拟内存](articles/virtual-memory.md)
