@@ -1,5 +1,5 @@
 # 技术杂货仓库
-:tiger: 分享开发技术！
+:tiger: 分享开发技术！分享前沿技术！
 
 
 
@@ -15,16 +15,47 @@
 </div>
 <br/>
 
-这是一个技术大杂烩的仓库，不过我们给出了一些技术的分类，你可以根据你所感兴趣的技术进行阅读，当然你如果有兴趣也可以加入我们的队伍！
+## 简介
 
-## 相关页面
+这是一个技术大杂烩的仓库，不过我们给出了一些技术的分类，你可以根据你所感兴趣的技术进行阅读，当然你如果有兴趣也可以加入我们的队伍！将你的优秀文章分享！
 
-* [博客地址](https://orzbox.github.io/our-tech/)
-* [Markdown 阅读](index.md)
 * [团队首页](https://orzbox.github.io)
 
+## 快速开始阅读
+
+* [博客地址](https://orzbox.github.io/our-tech/)（`推荐指数：⭐️⭐️⭐️⭐️⭐️`）
+* [Markdown 阅读](docs/README.md)（`推荐指数：⭐️⭐️⭐️⭐️`）
 
 
-## 贡献方法
 
-写作贡献方法请[前方500米左转直走](Contributing.md)
+## 加入我们
+
+- 请首先加入 orzbox 的 QQ 群，群号是：783835145，加群时请说明“仓库完整名称”：`orzbox/our-tech`。
+- 如果想加入 `GitHub Organization` 请联系群主 QQ：3249977074
+
+## 参与贡献
+
+写作贡献方法请[前方500米左转直走](https://github.com/orzbox/our-tech/wiki/%E8%B4%A1%E7%8C%AE%E6%96%B9%E6%B3%95)
+
+## 历史
+
+* **2018/11/12** ORZBOX 创建
+* **2018/11/12 - 2018/12/29** 相继 13 位核心成员加入
+
+## 贡献成员
+
+感谢以下成员对仓库的贡献！
+
+
+<a href="https://github.com/C0der1iu">
+​    <img src="https://avatars2.githubusercontent.com/u/23181922?s=460&v=4" width="50px">
+</a> 
+<a href="https://github.com/DearSummer">
+​    <img src="https://avatars2.githubusercontent.com/u/26338665?s=460&v=4" width="50px">
+</a> 
+
+## License
+
+- 本作品代码部分采用[MIT](LICENSE)协议进行许可
+
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品文档部分采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

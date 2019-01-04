@@ -1,8 +1,8 @@
-  
+
 # XSS跨站脚本攻击探讨总结
 
 author:[C0d3r1iu](https://github.com/C0der1iu)  
- 
+
 date: 2018-01-25 13:29:22
 
 
@@ -24,7 +24,7 @@ date: 2018-01-25 13:29:22
 
  ```
 <input name="xxx" value=" from_user_input "/>
-```
+ ```
 当 用户输入" onfocus="alert(1) 时变成了这样：  
 
 ```
@@ -94,7 +94,7 @@ XSS可以大致分为两或三类:
 <a href="data:text/html;base64,这里跟着base64之后的js代码">click here</a>
 ```
 
- 
+
 外域获取cookie,据我所知只有火狐才可以了，这里涉及同源策略相关知识。
 
 
@@ -201,10 +201,10 @@ default-src 指定了下列所有的资源加载有效来源。
     [附上链接](http://www.freebuf.com/articles/web/133455.html)
 
 如果后面空格跟上数据：
-    data:
-        允许data: URI作为内容来源。
-    mediastream:
-        允许mediastream: URI作为内容来源。
+​    data:
+​        允许data: URI作为内容来源。
+​    mediastream:
+​        允许mediastream: URI作为内容来源。
 
 PS:如果要采用多种关键字，直接空格连接就OK
 
