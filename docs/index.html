@@ -15,6 +15,14 @@
   <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
+      plugins: [
+          function(hook, vm) {
+            hook.doneEach(function(){
+              document.getElementById('gitalk-container').innerHTML = "";
+              NewGitalk().render('gitalk-container');
+            });
+           }	
+        ],
         maxAge: 100,
         maxLevel: 3,
         name: '技术杂货店',
@@ -55,16 +63,19 @@
 //     })
 
 //     document.body.appendChild(gitment.render())
-    const gitalk = new Gitalk({
-      clientID: 'e62f5ee8199f670b2b2d',
-      clientSecret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
-      repo: 'Gitalk-Issue',
-      owner: 'orzbox',
-      admin: ['ScarboroughCoral','orzbox'],
-      // facebook-like distraction free mode
-      id: md5(location.href),
-      distractionFreeMode: false
-    })
+    function NewGitalk(){
+      return new Gitalk({
+        clientID: 'e62f5ee8199f670b2b2d',
+        clientSecret: 'e427e538411006fdb2774d473970a9fe58adb5ba',
+        repo: 'Gitalk-Issue',
+        owner: 'orzbox',
+        admin: ['ScarboroughCoral','orzbox'],
+        // facebook-like distraction free mode
+        id: md5(location.href),
+        distractionFreeMode: false
+      })
+    }
+    const gitalk = NewGitalk()
     
   </script>
 </body>
