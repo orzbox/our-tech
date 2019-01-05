@@ -6,7 +6,7 @@
 
 
 
-- [Data Lab（进行中）](#Data Lab)
+- [Data Lab（进行中）](#Data-Lab)
 
 > 这个文章会不断更新。
 
