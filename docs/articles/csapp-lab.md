@@ -6,12 +6,6 @@
 
 
 
-## 内容目录
-
-[TOC]
-
-
-
 - [Data Lab（进行中）](csapp-datalab.md)
 
 > 这个文章会不断更新。
