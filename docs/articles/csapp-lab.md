@@ -12,11 +12,6 @@
 
 ## Data Lab
 
-> 作者：[ScarboroughCoral](https://github.com/ScarboroughCoral)
-
-
-
-想做实验请到[官网](http://csapp.cs.cmu.edu/3e/labs.html)下载实验材料。
 
 开始做 `CSAPP` 的实验了，这次是第一次实验，内容是关于计算机信息的表示，主要是位操作、整数题和浮点数相关的题。
 
