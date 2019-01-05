@@ -65,6 +65,9 @@
       id: md5(location.href),
       distractionFreeMode: false
     })
+    window.addEventListener('hashchange', function() { 
+      gitalk.render('gitalk-container')
+    });
   </script>
 </body>
 </html>
