@@ -33,7 +33,19 @@
             noData: '😞 No Results! ',
             depth: 2
         },
-        coverpage: true
+        coverpage: true,
+        markdown: {
+          renderer: {
+            code: function(code, lang) {
+              if (lang === "mermaid") {
+                return (
+                  '<div class="mermaid">' + mermaid.render('mermaid-svg-' + id++, code) + "</div>"
+                );
+              }
+              return this.origin.code.apply(this, arguments);
+            }
+          }
+        }
     }
   </script>
   <!-- CDN files for docsify-katex -->
