@@ -3,8 +3,8 @@
 
 * [博客](https://github.com/CyC2018/CS-Notes)
 
-![](../pics/cyc-blog.png)
+![](./pics/cyc-blog.png)
 
 * [推荐资料列表](https://github.com/CyC2018/CS-Notes/blob/master/LEARNING.md)
 
-![](../pics/cyc-learning.png)
+![](./pics/cyc-learning.png)
