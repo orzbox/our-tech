@@ -17,7 +17,13 @@
 </head>
 <body>
   <nav>
-    <button  class="btn btn-default need-share-button">Share</button>
+    <div id="i-share"
+        class="btn btn-default need-share-button"
+        data-share-position="topCenter"
+        data-share-icon-style="default"
+        data-share-networks="Wechat,Weibo,Renren,Twitter,Facebook,GooglePlus,Douban,QQZone,Evernote">
+        <i class="icon-next-heart fa fa-heart"></i>
+    </div>
   </nav>
   <div id="app">Please wait...</div>
   <script>
@@ -42,6 +48,9 @@
         },
         coverpage: true,
     }
+  </script>
+  <script>
+      new needShareButton(document.getElementById('i-share'));
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->  
