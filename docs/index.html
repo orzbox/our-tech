@@ -14,18 +14,24 @@
   <script src="scripts/needsharebutton.min.js"></script>
   <!-- needsharebutton CSS file -->
   <link href="styles/needsharebutton.min.css" rel="stylesheet" />
+  <style>
+    #i-share{
+      position:absolute;
+      right:5vw;
+      bottom:5vh;
+      background-color:repeating-linear-gradient(45deg, #6effbf , #dcaee8,#ffc5e6,#fcf2db);
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <div id="i-share"
-        class="btn btn-default need-share-button"
-        data-share-position="bottomLeft"
-        data-share-icon-style="default"
-        data-share-networks="Wechat,Weibo,Renren,Twitter,Facebook,GooglePlus,Douban,QQZone,Evernote">
-        <img src="_media/share.svg" width="25" />
-    </div>
-  </nav>
   <div id="app">Please wait...</div>
+  <div id="i-share"
+      class="btn btn-default need-share-button"
+      data-share-position="bottomLeft"
+      data-share-icon-style="default"
+      data-share-networks="Wechat,Weibo,Renren,Twitter,Facebook,GooglePlus,Douban,QQZone,Evernote">
+      <img src="_media/share.svg" width="25" />
+  </div>
   <script>
     window.$docsify = {
       plugins: [
