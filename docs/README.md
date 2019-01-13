@@ -60,6 +60,10 @@
 
 - [持续集成服务——Travis CI：自动化测试和部署你的项目](articles/travis-ci.md)
 
+## 📈 数学
+
+- [Matlab 绘图笔记](articles/matlab-figures.md)
+
 ## 🔨 工具
 
 - [版本控制工具——Git 使用教程](articles/git-guide.md)
