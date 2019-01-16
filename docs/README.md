@@ -1,6 +1,6 @@
 ## 💻 计算机基础
 
-- [计算机一站式学习](https://www.geeksforgeeks.org/)
+- [计算机专业一站式学习](https://www.geeksforgeeks.org/)
 - [经典学习资料！大佬们都说很经典！](articles/study-resource.md) 
 - [CSAPP 实验记录](articles/csapp-lab.md)
 
