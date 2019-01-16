@@ -1,5 +1,6 @@
 ## 💻 计算机基础
 
+- [计算机一站式学习](https://www.geeksforgeeks.org/)
 - [经典学习资料！大佬们都说很经典！](articles/study-resource.md) 
 - [CSAPP 实验记录](articles/csapp-lab.md)
 
@@ -69,3 +70,4 @@
 - [版本控制工具——Git 使用教程](articles/git-guide.md)
 - [阿里巴巴飞冰——快速构建WEB页面](articles/ice.md)
 - [1800小时 WEB 全栈训练营——快速入门精通 WEB 全栈](articles/freecodecamp.md)
+
