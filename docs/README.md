@@ -63,7 +63,6 @@
 
 ## 📈 数学
 
-- [Matlab 绘图笔记](articles/matlab-figures.md)
 
 ## 🔨 工具
 
