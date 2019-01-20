@@ -39,7 +39,7 @@
 
 ## 🔧 嵌入式
 
-- [x86 指令集编码](http://ref.x86asm.net/index.html)
+- [x86 汇编速查手册](http://ref.x86asm.net/index.html)
 
 ## 🎆 后端
 
