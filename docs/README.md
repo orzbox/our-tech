@@ -37,6 +37,10 @@
 - [Vue 源码解读项目](https://github.com/HcySunYang/vue-design)
 - [前端面试之道](https://github.com/InterviewMap/CS-Interview-Knowledge-Map)
 
+## 🔧 嵌入式
+
+- [x86 指令集编码](http://ref.x86asm.net/index.html)
+
 ## 🎆 后端
 
 ### Node.js
