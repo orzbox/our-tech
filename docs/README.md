@@ -2,7 +2,7 @@
 
 - [计算机专业一站式学习](https://www.geeksforgeeks.org/)
 - [经典学习资料！大佬们都说很经典！](articles/study-resource.md) 
-- [CSAPP 实验记录](articles/csapp-lab.md)
+- [一些优秀大学的计算机公开课](articles/awesome-courses.md)
 
 ## 🐔 技术资料
 
