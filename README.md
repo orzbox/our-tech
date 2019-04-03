@@ -12,6 +12,9 @@
      <a href="https://orzbox.github.io/our-tech/">
          <img src="https://img.shields.io/badge/Blog-@our_tech-green.svg?style=flat-square">
     </a>
+     <a href="https://orzbox.github.io/our-tech/">
+         <img src="https://img.shields.io/github/stars/orzbox/our-tech.svg?style=flat-square">
+    </a>
 </div>
 <br/>
 
