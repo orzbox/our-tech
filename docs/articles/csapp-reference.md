@@ -8,3 +8,7 @@ CSAPP cmu大佬读书笔记：[https://wdxtub.com/csapp/thin-csapp-0/2016/04/16/
 CSAPP 部分练习题答案：[https://dreamanddead.gitbooks.io/csapp-3e-solutions/content/](https://dreamanddead.gitbooks.io/csapp-3e-solutions/content/)
 
 CSAPP 实验：[http://csapp.cs.cmu.edu/3e/labs.html](http://csapp.cs.cmu.edu/3e/labs.html)
+
+CSAPP 扫描版 ：
+
+> 链接: https://pan.baidu.com/s/1AJtBE1AXew7K1nr58phKNQ 提取码: rutp 复制这段内容后打开百度网盘手机App，操作更方便哦
